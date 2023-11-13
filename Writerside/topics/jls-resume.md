@@ -21,7 +21,7 @@ Training, User Guides, White Papers
 
 # PROFESSIONAL EXPERIENCE
 
-## Manager, Publications
+## Publications Manager, Intellicheck {collapsible="true"}
 
 ### [Intellicheck](https://www.intellicheck.com), Remote June 2023 to Present
 
@@ -51,7 +51,7 @@ Training, User Guides, White Papers
     publications that included a comprehensive workflow for each
     publication, and Slack integration for release announcements.
 
-## Staff Technical Writer
+## Staff Technical Writer, Intel {collapsible="true"}
 
 ### [Intel](https://www.intel.com), Allentown, PA July 2014 to April 2023
 
@@ -84,7 +84,7 @@ Training, User Guides, White Papers
     (CMS) based on **Salesforce** and **Adobe AEM** that enabled
     external customer entitlements and lifecycle processing.
 
-## Senior Technical Writer
+## Senior Technical Writer, Broadcom {collapsible="true"}
 
 ### Avago Technologies (Broadcom), Allentown, PA July 2011 to July 2014
 
@@ -97,7 +97,7 @@ Training, User Guides, White Papers
     complex documentation build processes, resulting in improved quality
     and significant savings of time and resources.
 
-## Technical Writer 
+## Technical Writer, Innovative Control Systems {collapsible="true"}
 
 ### Innovative Control Systems, Wind Gap, PA May 2007 to July 2011
 
@@ -112,7 +112,7 @@ Training, User Guides, White Papers
     cash management software, enabling car wash owners to provide
     employees with progressive and interactive learning resources.
 
-## Applications Support Specialist 
+## Applications Support Specialist, LSI Logic {collapsible="true"}
 
 ### Agere Systems (LSI Logic), Allentown, PA November 2000 to December 2005
 
