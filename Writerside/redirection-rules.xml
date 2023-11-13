@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="4d724690">
+        <description>Created after removal of "About Condensed Resume" from Condensed Resume</description>
+        <accepts>condensed-resume.html</accepts>
+    </rule>
+    <rule id="73a787dd">
+        <description>Created after removal of "Skills" from Condensed Resume</description>
+        <accepts>skills.html</accepts>
+    </rule>
+</rules>

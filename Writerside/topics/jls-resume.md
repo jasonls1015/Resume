@@ -4,24 +4,15 @@ A technical writer with 20+ years of experience delivering hardware and
 software content from both structured and unstructured repositories
 supporting global teams with technically accurate documentation.
 
-**Authoring**: Adobe AEM, FrameMaker (Structured and
-Unstructured), Audacity, Captivate, Confluence, DITA, Docker, Excel,
-ExtendScripts, Markdown, PowerPoint, Python, Restructured Text,
-RoboHelp, SnagIt, Sphinx, Tridion Docs, VBA, Visio, WaveDrom, Word, XML
+<if instance="br"><include from="skills.md" element-id="authoring"></include></if>
 
-**Collaboration**: Agile, Gerrit, GitHub, Jama, Jira, Linux, Microsoft
-365, Power Automate, Salesforce, SharePoint, Slack, Teams
+<if instance="br"><include from="skills.md" element-id="collaboration"></include></if>
 
-**Deliverables**: API, Datasheets, Documentation (Hardware and
-Software), Illustrations, Integration Guides, Installation Guides,
-Newsletters, Online Help, Platform Design Guides, Presentations, Press
-Releases, Programmer Guides, Proposals, Reference Manuals, Register
-Maps, Release Notes, Sightings Reports, Specifications, Style Guides,
-Training, User Guides, White Papers
+<if instance="br"><include from="skills.md" element-id="deliverables"></include></if>
 
 # PROFESSIONAL EXPERIENCE
 
-## Publications Manager, Intellicheck {collapsible="true"}
+## Publications Manager, Intellicheck 
 
 ### [Intellicheck](https://www.intellicheck.com), Remote June 2023 to Present
 
@@ -51,7 +42,8 @@ Training, User Guides, White Papers
     publications that included a comprehensive workflow for each
     publication, and Slack integration for release announcements.
 
-## Staff Technical Writer, Intel {collapsible="true"}
+
+## Staff Technical Writer, Intel
 
 ### [Intel](https://www.intel.com), Allentown, PA July 2014 to April 2023
 
@@ -84,7 +76,9 @@ Training, User Guides, White Papers
     (CMS) based on **Salesforce** and **Adobe AEM** that enabled
     external customer entitlements and lifecycle processing.
 
-## Senior Technical Writer, Broadcom {collapsible="true"}
+
+
+## Senior Technical Writer, Broadcom
 
 ### Avago Technologies (Broadcom), Allentown, PA July 2011 to July 2014
 
@@ -97,7 +91,7 @@ Training, User Guides, White Papers
     complex documentation build processes, resulting in improved quality
     and significant savings of time and resources.
 
-## Technical Writer, Innovative Control Systems {collapsible="true"}
+## Technical Writer, Innovative Control Systems
 
 ### Innovative Control Systems, Wind Gap, PA May 2007 to July 2011
 
@@ -112,7 +106,7 @@ Training, User Guides, White Papers
     cash management software, enabling car wash owners to provide
     employees with progressive and interactive learning resources.
 
-## Applications Support Specialist, LSI Logic {collapsible="true"}
+## Applications Support Specialist, LSI Logic
 
 ### Agere Systems (LSI Logic), Allentown, PA November 2000 to December 2005
 
@@ -120,23 +114,23 @@ Training, User Guides, White Papers
     circuit specifications, resulting in cleaner templates, standardized
     drawings, improved indexes, and more efficient content workflows.
 
-# EDUCATION
+# EDUCATION {collapsible="true"}
 
-## New Jersey Institute of Technology, Master's Degree (Summa Cum Laude) 
-
+**New Jersey Institute of Technology**, Master's Degree (Summa Cum Laude) 
 -   Professional & Technical Communications
 
-## Indiana University of Pennsylvania, Bachelor's Degree 
+**Indiana University of Pennsylvania**, Bachelor's Degree 
 
 -   Journalism Major
 
 -   Computer Science Minor
 
-# MEMBERSHIPS
+# MEMBERSHIPS {collapsible="true"}
 
 Member and volunteer at the Society for Technical Communications (STC),
 Philadelphia Metro Chapter
 
-# TRAINING
+# TRAINING {collapsible="true"}
 
 Creating API Documentation, LinkedIn Learning Certificate
+Getting Started with GitHub, Pluralsight Training
