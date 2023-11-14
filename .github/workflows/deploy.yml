@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
   # Gives the workflow permissions to clone the repo and create a page deployment
-  permissions:
+permissions:
     id-token: write
     pages: write
 
