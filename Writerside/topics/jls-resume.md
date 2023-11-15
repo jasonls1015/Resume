@@ -4,11 +4,11 @@ A technical writer with 20+ years of experience delivering hardware and
 software content from both structured and unstructured repositories
 supporting global teams with technically accurate documentation.
 
-<if instance="br"><include from="skills.md" element-id="authoring"></include></if>
+<if instance="sr"><include from="skills.md" element-id="authoring"></include></if>
 
-<if instance="br"><include from="skills.md" element-id="collaboration"></include></if>
+<if instance="sr"><include from="skills.md" element-id="collaboration"></include></if>
 
-<if instance="br"><include from="skills.md" element-id="deliverables"></include></if>
+<if instance="sr"><include from="skills.md" element-id="deliverables"></include></if>
 
 # PROFESSIONAL EXPERIENCE
 

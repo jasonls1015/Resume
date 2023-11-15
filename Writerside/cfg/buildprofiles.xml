@@ -2,11 +2,28 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
-    <build-profile instance="hi">
+    <variables>
+        <color-preset>vivid</color-preset>
+        <primary-color>halloween</primary-color>
+        <header-logo>jls-logo.svg</header-logo>
+    </variables>
+    <build-profile instance="sr">
         <variables>
             <noindex-content>true</noindex-content>
+            <color-preset>soft</color-preset>
+            <primary-color>halloween</primary-color>
         </variables>
     </build-profile>
+    <build-profile instance="cr">
+        <variables>
+            <noindex-content>true</noindex-content>
+            <color-preset>vivid</color-preset>
+            <primary-color>iris</primary-color>
+        </variables>
+    </build-profile>
+    <footer>
+        <copyright>Jason Langkamer-Smith, Copyright 2023</copyright>
+        <social type="linkedin" href="https://www.linkedin.com/in/jason-langkamer-smith-0a412811"></social>
+    </footer>
 
 </buildprofiles>
