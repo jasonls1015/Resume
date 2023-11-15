@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="sr" name="Standard Resume"
-                  start-page="">
+                  start-page="jls-resume.md">
 
     <toc-element topic="jls-resume.md"/>
 </instance-profile>
