@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <style>
+    .cls-1 {
+      fill: #aaa;
+      fill-opacity: 0.4;
+    }
+
+    .cls-2 {
+      fill: #000;
+      font-size: 100px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
+  </style>
+  <rect class="cls-1" width="400" height="400" />
+  <text class="cls-2" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">~jl.s</text>
+</svg>
