@@ -1,5 +1,6 @@
 # SENIOR TECHNICAL WRITER/TRAINING CONTENT
 
+
 A technical writer with 20+ years of experience delivering hardware and
 software content from both structured and unstructured repositories
 supporting global teams with technically accurate documentation.
