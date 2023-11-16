@@ -1,6 +1,20 @@
 # SENIOR TECHNICAL WRITER/TRAINING CONTENT
 
+## Downloads
+<tabs>
+<tab title="Word">
 
+* [Jason Langkamer-Smith **Word** Resume](https://jasonls1015.github.io/Resume/jls-resume.docx)
+
+</tab>
+<tab title="Acrobat">
+
+* [Jason Langkamer-Smith **Acrobat** Resume](https://jasonls1015.github.io/Resume/jls-resume.pdf)
+
+</tab>
+</tabs>
+
+## Summary
 A technical writer with 20+ years of experience delivering hardware and
 software content from both structured and unstructured repositories
 supporting global teams with technically accurate documentation.
