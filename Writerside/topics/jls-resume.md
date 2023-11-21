@@ -147,5 +147,6 @@ Philadelphia Metro Chapter
 
 # TRAINING {collapsible="true"}
 
-Creating API Documentation, LinkedIn Learning Certificate
-Getting Started with GitHub, Pluralsight Training
+- *Creating API Documentation*, LinkedIn Learning Certificate
+
+- *Getting Started with GitHub*, Pluralsight Training
