@@ -2,7 +2,7 @@
 
 > This repo is available as a GitHub Pages WebHelp project.
 
-* [Standard Resume](https://jasonls1015.github.io/Resume/webHelpBR2-all/jls-resume.html)
+* [Standard Resume](https://jasonls1015.github.io/Resume/webHelpSR2-all/jls-resume.html)
 
 * [Condensed Resume](https://jasonls1015.github.io/Resume/webHelpCR2-all/jls-resume.html)
 
@@ -12,7 +12,7 @@ The WebHelp is deployed to GitHub Pages with the `pages build and deployment` ac
 
 Both instances contain `include` statements that pull in the first three sections for *Authoring*, *Collaboration*, and *Deliverables*. These sections are from a snippet library named [skills.md](Writerside/topics).
 
-Then the sections are conditionally tagged with \<if\> statements to target the separate help instances. The standard resume includes the snippets, while the condensed resume does not.
+Then the sections are conditionally tagged with `<if>` statements to target the separate help instances. The standard resume includes the snippets, while the condensed resume does not.
 
 This project demonstrates the concepts of single-sourced authoring, conditional builds, and docs-as-code using GitHub and Writerside as an authoring platform.
 
