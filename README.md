@@ -10,7 +10,7 @@ This repo is a demonstration of my Markdown resume as a Writerside project with 
 
 The WebHelp is deployed to GitHub Pages with the `pages build and deployment` action, where each resume is presented according to the conditional settings for the two help instances in Writerside.
 
-Both instances contain `include` statements that pull in the first three sections for *Authoring*, *Collaboration*, and *Deliverables*. These sections are from a snippet library named [skills.md](Writerside/topics).
+Both instances contain `include` statements that pull in the first three sections for *Core technical writing*, *Docs-as-code & developer tooling*, *AI and automation*, *Collaboration*, and *Deliverables*. These sections are from a snippet library named [skills.md](Writerside/topics).
 
 Then the sections are conditionally tagged with `<if>` statements to target the separate help instances. The standard resume includes the snippets, while the condensed resume does not.
 
