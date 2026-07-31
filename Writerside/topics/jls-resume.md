@@ -1,4 +1,8 @@
-# SENIOR TECHNICAL WRITER/TRAINING CONTENT
+# Jason Langkamer-Smith
+
+218 North 30th Street · Allentown, PA 18104 · (484) 241-0122 · jasonls1015@outlook.com
+
+Senior Technical Writer · Documentation Architect · Developer Experience
 
 ## Downloads
 <tabs>
@@ -15,11 +19,13 @@
 </tabs>
 
 ## Summary
-A technical writer with 20+ years of experience delivering hardware and
-software content from both structured and unstructured repositories
-supporting global teams with technically accurate documentation.
+A senior technical writer with 20+ years of experience delivering hardware, software, and API documentation for global engineering teams. Specializes in docs-as-code workflows, structured content systems, developer tooling, and AI-assisted documentation automation. Combines deep writing expertise with hands-on technical skills in Python, RAG pipelines, semantic authoring, and content architecture.
 
-<if instance="sr"><include from="skills.md" element-id="authoring"></include></if>
+<if instance="sr"><include from="skills.md" element-id="tech-writing"></include></if>
+
+<if instance="sr"><include from="skills.md" element-id="docs-as-code"></include></if>
+
+<if instance="sr"><include from="skills.md" element-id="ai-automation"></include></if>
 
 <if instance="sr"><include from="skills.md" element-id="collaboration"></include></if>
 
@@ -31,40 +37,31 @@ supporting global teams with technically accurate documentation.
 
 ### [Intellicheck](https://www.intellicheck.com), Remote June 2023 to Present
 
--   Created a process to enable the company\'s first **docs-as-code**
-    toolchain with **GitHub** repos, **Markdown**, and **Readme.io** as
-    the developer platform.
+-   Led Intellicheck’s first docs-as-code initiative using GitHub, Markdown, and Readme.io to modernize developer documentation workflows.
 
--   Edited **API documentation** for clarity while converting legacy API
-    docs from Word to Markdown.
+-   Designed and built ROOTS, a Slack-integrated retrieval-augmented generation (RAG) Python application using Claude to answer developer questions about API endpoints and internal functionality.
 
--   Converted publications into an online format using a modern
-    technical authoring platform that combined **semantic XML** with
-    Markdown to publish single-sourced **WebHelp** output.
+    - Implemented retrieval pipelines over GitHub-based API documentation and internal FAQs.
 
--   Built several **Confluence** spaces for internal communications, for
-    example, customer onboarding, and technical publications best
-    practices.
+    - Delivered an authoritative internal support tool that reduced SME interruptions and accelerated developer onboarding.
 
--   Managed and analyzed **SharePoint** sites across business units to
-    improve structure, simplify permissions strategy, and implement
-    basic **Power Automate** workflows.
 
--   Attended daily **Agile** stand-ups to build links between technical
-    publications and development issues.
+-   Converted legacy API documentation from Word to Markdown, improving clarity, consistency, and maintainability.
 
--   Established a **Jira** work management project for technical
-    publications that included a comprehensive workflow for each
-    publication, and Slack integration for release announcements.
+-   Migrated publications to a semantic XML + Markdown authoring platform to produce single-sourced WebHelp output.
+
+-   Built Confluence spaces for onboarding, technical publications best practices, and internal communication.
+
+-   Analyzed and reorganized SharePoint sites across business units, simplifying permissions and implementing Power Automate workflows.
+
+-   Designed a Jira work management project with Slack release notifications to streamline publication workflows
 
 
 ## Staff Technical Writer, Intel
 
 ### [Intel](https://www.intel.com), Allentown, PA July 2014 to April 2023
 
--   Worked remotely and on-site to finalize more than 700 deliverables,
-    collaborating with electrical engineers, developers, and subject
-    matter experts (**SME**s) to deliver high-quality documentation.
+-   Delivered 700+ publications for electrical engineers, developers, and SMEs across semiconductor and architecture teams.
 
 -   Utilized structured content in an enterprise component content
     management system (**CCMS**) built with Darwin Information Typing

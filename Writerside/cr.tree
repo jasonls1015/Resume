@@ -4,7 +4,7 @@
 
 <instance-profile id="cr"
                  name="Condensed Resume"
-                 start-page="condensed-resume.md">
+                 start-page="jls-resume.md">
 
     <toc-element topic="jls-resume.md"/>
 </instance-profile>
