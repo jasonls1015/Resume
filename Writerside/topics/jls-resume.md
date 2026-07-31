@@ -35,7 +35,7 @@ A senior technical writer with 20+ years of experience delivering hardware, soft
 
 ## Publications Manager, Intellicheck 
 
-### [Intellicheck](https://www.intellicheck.com), Remote June 2023 to Present
+### Intellicheck, Remote June 2023 to July 2026
 
 -   Led Intellicheck’s first docs-as-code initiative using GitHub, Markdown, and Readme.io to modernize developer documentation workflows.
 
@@ -59,7 +59,7 @@ A senior technical writer with 20+ years of experience delivering hardware, soft
 
 ## Staff Technical Writer, Intel
 
-### [Intel](https://www.intel.com), Allentown, PA July 2014 to April 2023
+### Intel, Allentown, PA July 2014 to April 2023
 
 -   Delivered 700+ publications for electrical engineers, developers, and SMEs across semiconductor and architecture teams.
 
