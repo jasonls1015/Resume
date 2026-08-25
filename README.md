@@ -2,18 +2,16 @@
 
 > This repo is available as a GitHub Pages WebHelp project.
 
-* [Standard Resume](https://jasonls1015.github.io/Resume/webHelpSR2-all/jls-resume.html)
+* [Senior Technical Writer](https://jasonls1015.github.io/Resume/technical-writer/technical-writer-resume.html) · [PDF](https://jasonls1015.github.io/Resume/downloads/twr-resume.pdf)
 
-* [Condensed Resume](https://jasonls1015.github.io/Resume/webHelpCR2-all/jls-resume.html)
+* [Content Engineer](https://jasonls1015.github.io/Resume/content-engineer/content-engineer-resume.html) · [PDF](https://jasonls1015.github.io/Resume/downloads/cer-resume.pdf)
 
-This repo is a demonstration of my Markdown resume as a Writerside project with two single-sourced WebHelp instances.
+* [Knowledge Manager](https://jasonls1015.github.io/Resume/knowledge-manager/knowledge-manager-resume.html) · [PDF](https://jasonls1015.github.io/Resume/downloads/kmr-resume.pdf)
 
-The WebHelp is deployed to GitHub Pages with the `pages build and deployment` action, where each resume is presented according to the conditional settings for the two help instances in Writerside.
+This repo is a demonstration of my Markdown resume as a Writerside project with three single-sourced instances, each targeted at a different role.
 
-Both instances contain `include` statements that pull in the first three sections for *Core technical writing*, *Docs-as-code & developer tooling*, *AI and automation*, *Collaboration*, and *Deliverables*. These sections are from a snippet library named [skills.md](Writerside/topics).
+Every job's experience bullets live as individual snippets in a shared library, [resume_snippets.md](Writerside/topics). Each resume assembles its Professional Experience section with `include` statements, selecting and ordering the bullets that best fit that role. A bullet edited once in the snippet library updates in every resume that includes it.
 
-Then the sections are conditionally tagged with `<if>` statements to target the separate help instances. The standard resume includes the snippets, while the condensed resume does not.
+A GitHub Actions workflow builds all three instances as both WebHelp and PDF, then deploys the combined output to GitHub Pages.
 
-This project demonstrates the concepts of single-sourced authoring, conditional builds, and docs-as-code using GitHub and Writerside as an authoring platform.
-
-
+This project demonstrates the concepts of single-sourced authoring, snippet-based content reuse, and docs-as-code using GitHub and Writerside as an authoring platform.
