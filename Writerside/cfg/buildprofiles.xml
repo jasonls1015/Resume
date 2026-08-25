@@ -7,23 +7,29 @@
         <primary-color>halloween</primary-color>
         <header-logo>jls-logo.svg</header-logo>
     </variables>
-    <build-profile instance="sr">
+    <build-profile instance="twr">
         <variables>
-            <noindex-content>true</noindex-content>
             <color-preset>soft</color-preset>
             <primary-color>halloween</primary-color>
+            <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
-    <build-profile instance="cr">
+    <build-profile instance="cer">
         <variables>
-            <noindex-content>true</noindex-content>
             <color-preset>vivid</color-preset>
             <primary-color>iris</primary-color>
+            <noindex-content>false</noindex-content>
+        </variables>
+    </build-profile>
+    <build-profile instance="kmr">
+        <variables>
+            <color-preset>contrast</color-preset>
+            <primary-color>emerald</primary-color>
+            <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
     <footer>
         <copyright>Jason Langkamer-Smith</copyright>
         <social type="linkedin" href="https://www.linkedin.com/in/jason-langkamer-smith-0a412811">LinkedIn</social>
     </footer>
-
 </buildprofiles>
