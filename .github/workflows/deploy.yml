@@ -50,6 +50,9 @@ jobs:
           mkdir -p site/${{ matrix.outdir }}
           unzip -q artifacts/${{ matrix.web_artifact }} -d site/${{ matrix.outdir }}
 
+      - name: Clear artifacts before PDF build
+        run: rm -rf artifacts/*
+
       - name: Build PDF - ${{ matrix.instance }}
         uses: JetBrains/writerside-github-action@v4
         with:
