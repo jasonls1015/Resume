@@ -1,80 +1,103 @@
-## I commented this file out because I do not want it to run each time I push a change to main/origin.
-## If enabled, it builds the WebHelp .zip file in the artifacts directory.
-## To uncomment the code, remove all the ##.
-# But leave the single # lines commented. They are part of the file or were commented out intentionally.
-
-name: Build documentation
+name: Build and deploy resumes
 
 on:
-  # If specified, the workflow will be triggered automatically once you push to the `main` branch.
-  # Replace `main` with your branch’s name
   push:
     branches: ["main"]
-
-  # Specify to run a workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
-  # Gives the workflow permissions to clone the repo and create a page deployment
 permissions:
-    id-token: write
-    pages: write
+  id-token: write
+  pages: write
 
 env:
-  # Name of module and id separated by a slash
-  INSTANCE: Writerside/sr
-  # Replace HI with the ID of the instance in capital letters
-  ARTIFACT: webHelpSR2-all.zip
-  # Writerside docker image version
   DOCKER_VERSION: 232.10165.1
-  # Add the variable below to upload Algolia indexes
-  # Replace HI with the ID of the instance in capital letters
-  #ALGOLIA_ARTIFACT: algolia-indexes-BR.zip
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - id: twr
+            instance: Writerside/twr
+            web_artifact: webHelpTWR2-all.zip
+            pdf_artifact: pdfSourceTWR.pdf
+            outdir: technical-writer
+          - id: cer
+            instance: Writerside/cer
+            web_artifact: webHelpCER2-all.zip
+            pdf_artifact: pdfSourceCER.pdf
+            outdir: content-engineer
+          - id: kmr
+            instance: Writerside/kmr
+            web_artifact: webHelpKMR2-all.zip
+            pdf_artifact: pdfSourceKMR.pdf
+            outdir: knowledge-manager
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build Writerside docs using Docker
+      - name: Build WebHelp - ${{ matrix.instance }}
         uses: JetBrains/writerside-github-action@v4
         with:
-          instance: ${{ env.INSTANCE }}
-          artifact: ${{ env.ARTIFACT }}
+          instance: ${{ matrix.instance }}
+          artifact: ${{ matrix.web_artifact }}
           docker-version: ${{ env.DOCKER_VERSION }}
 
-      - name: Upload documentation
+      - name: Unzip WebHelp into site subdirectory
+        run: |
+          mkdir -p site/${{ matrix.outdir }}
+          unzip -q artifacts/${{ matrix.web_artifact }} -d site/${{ matrix.outdir }}
+
+      - name: Build PDF - ${{ matrix.instance }}
+        uses: JetBrains/writerside-github-action@v4
+        with:
+          instance: ${{ matrix.instance }}
+          artifact: ${{ matrix.pdf_artifact }}
+          docker-version: ${{ env.DOCKER_VERSION }}
+
+      - name: Stage PDF for download
+        run: |
+          mkdir -p site/downloads
+          cp artifacts/${{ matrix.pdf_artifact }} site/downloads/${{ matrix.id }}-resume.pdf
+
+      - name: Upload site fragment
         uses: actions/upload-artifact@v4
         with:
-          name: docs
-          path: |
-            artifacts/${{ env.ARTIFACT }}
-            artifacts/report.json
-          retention-days: 7
+          name: site-${{ matrix.id }}
+          path: site
+          retention-days: 1
 
-      # Add the step below to upload Algolia indexes
-      #- name: Upload algolia-indexes
-      #  uses: actions/upload-artifact@v4
-      #  with:
-      #    name: algolia-indexes
-      #    path: artifacts/${{ env.ALGOLIA_ARTIFACT }}
-      #    retention-days: 7
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-  # Add the job below and artifacts/report.json on Upload documentation step above if you want to fail the build when documentation contains errors
-  #test:
-    # Requires build job results
-  #  needs: build
-  #  runs-on: ubuntu-latest
+      - name: Download all site fragments
+        uses: actions/download-artifact@v4
+        with:
+          pattern: site-*
+          path: fragments
 
-  #  steps:
-  #    - name: Download artifacts
-  #      uses: actions/download-artifact@v1
-  #      with:
-  #        name: docs
-  #        path: artifacts
+      - name: Merge fragments into final site
+        run: |
+          mkdir -p final-site
+          for frag in fragments/*/; do
+            cp -r "$frag"/* final-site/
+          done
+          cp docs/index.html final-site/index.html
 
-  #    - name: Test documentation
-  #      uses: JetBrains/writerside-checker-action@v1
-  #      with:
-  #        instance: ${{ env.INSTANCE }}
+      - name: Upload combined Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: final-site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
