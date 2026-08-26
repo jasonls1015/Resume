@@ -57,8 +57,8 @@ jobs:
         uses: JetBrains/writerside-github-action@v4
         with:
           instance: ${{ matrix.instance }}
-          artifact: ${{ matrix.pdf_artifact }}
           docker-version: ${{ env.DOCKER_VERSION }}
+          pdf: 'PDF.xml'
 
       - name: Stage PDF for download
         run: |
