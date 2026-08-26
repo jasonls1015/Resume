@@ -10,7 +10,7 @@ permissions:
   pages: write
 
 env:
-  DOCKER_VERSION: 232.10165.1
+  DOCKER_VERSION: 2026.07.8925
 
 jobs:
   build:
