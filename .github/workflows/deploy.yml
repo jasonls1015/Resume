@@ -58,7 +58,7 @@ jobs:
         with:
           instance: ${{ matrix.instance }}
           docker-version: ${{ env.DOCKER_VERSION }}
-          pdf: 'PDF.xml'
+          pdf: 'Writerside/cfg/PDF.xml'
 
       - name: Stage PDF for download
         run: |
