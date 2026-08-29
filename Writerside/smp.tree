@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="smp"
+                 name="Samples"
+                 start-page="samples.md">
+
+    <toc-element topic="samples.md">
+        <toc-element topic="API-Documentation.md"/>
+        <toc-element topic="ROOTS-Case-Study.md"/>
+        <toc-element topic="Markdown.md">
+            <toc-element topic="LogIn.md" hidden="true"/>
+        </toc-element>
+        <toc-element topic="ExtendScripts.md"/>
+        <toc-element topic="White-Papers.md"/>
+    </toc-element>
+</instance-profile>

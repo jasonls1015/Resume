@@ -14,4 +14,8 @@
         <description>Created after removal of "Skills" from Condensed Resume</description>
         <accepts>skills.html</accepts>
     </rule>
+    <rule id="39681c9f">
+        <description>Created after removal of "Log In" from Samples</description>
+        <accepts>LogIn.html</accepts>
+    </rule>
 </rules>

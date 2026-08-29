@@ -23,16 +23,24 @@ jobs:
             web_artifact: webHelpTWR2-all.zip
             pdf_artifact: pdfSourceTWR.pdf
             outdir: technical-writer
+            has_pdf: true
           - id: cer
             instance: Writerside/cer
             web_artifact: webHelpCER2-all.zip
             pdf_artifact: pdfSourceCER.pdf
             outdir: content-engineer
+            has_pdf: true
           - id: kmr
             instance: Writerside/kmr
             web_artifact: webHelpKMR2-all.zip
             pdf_artifact: pdfSourceKMR.pdf
             outdir: knowledge-manager
+            has_pdf: true
+          - id: smp
+            instance: Writerside/smp
+            web_artifact: webHelpSMP2-all.zip
+            outdir: docs
+            has_pdf: false
 
     steps:
       - name: Checkout repository
@@ -51,9 +59,11 @@ jobs:
           unzip -q artifacts/${{ matrix.web_artifact }} -d site/${{ matrix.outdir }}
 
       - name: Clear artifacts before PDF build
+        if: matrix.has_pdf
         run: rm -rf artifacts/*
 
       - name: Build PDF - ${{ matrix.instance }}
+        if: matrix.has_pdf
         uses: JetBrains/writerside-github-action@v4
         with:
           instance: ${{ matrix.instance }}
@@ -61,6 +71,7 @@ jobs:
           pdf: 'Writerside/cfg/PDF.xml'
 
       - name: Stage PDF for download
+        if: matrix.has_pdf
         run: |
           mkdir -p site/downloads
           cp artifacts/${{ matrix.pdf_artifact }} site/downloads/${{ matrix.id }}-resume.pdf
