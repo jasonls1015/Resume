@@ -32,4 +32,9 @@
         <copyright>Jason Langkamer-Smith</copyright>
         <social type="linkedin" href="https://www.linkedin.com/in/jason-langkamer-smith-0a412811">LinkedIn</social>
     </footer>
+    <build-profile instance="smp">
+        <variables>
+            <noindex-content>false</noindex-content>
+        </variables>
+    </build-profile>
 </buildprofiles>
