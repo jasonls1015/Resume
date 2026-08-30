@@ -105,7 +105,7 @@ Log in here: [https://example.login.url](https://www​.example.login.url)
 > **Register**
 > 
 > To log in, you must be a registered customer.
-> - Contact [Example support link](https://www%​.example.com/support).
+> - Contact [Example support link](https://www.example.com/support).
 >
 {style="note"}
 

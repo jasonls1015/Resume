@@ -14,5 +14,6 @@
         </toc-element>
         <toc-element topic="ExtendScripts.md"/>
         <toc-element topic="White-Papers.md"/>
+        <toc-element topic="Document-Usability-Research.md"/>
     </toc-element>
 </instance-profile>

@@ -1,6 +1,6 @@
 # White Papers
 
-# Legacy Technical Publications: Intel DLB White Paper
+# Technical Publications: Intel DLB White Paper
 
 At Intel, I served as editor, layout designer, and production lead for dozens of external-facing white papers, product briefs, and technical marketing collateral for the Network Builders program. This is one representative example.
 

@@ -8,10 +8,12 @@
 
 * [Knowledge Manager](https://jasonls1015.github.io/Resume/knowledge-manager/knowledge-manager-resume.html) · [PDF](https://jasonls1015.github.io/Resume/downloads/kmr-resume.pdf)
 
-This repo is a demonstration of my Markdown resume as a Writerside project with three single-sourced instances, each targeted at a different role.
+* [Writing Samples](https://jasonls1015.github.io/Resume/docs/samples.html)
 
-Every job's experience bullets live as individual snippets in a shared library, [resume_snippets.md](Writerside/topics). Each resume assembles its Professional Experience section with `include` statements, selecting and ordering the bullets that best fit that role. A bullet edited once in the snippet library updates in every resume that includes it.
+This repo is a demonstration of my Markdown resume as a Writerside project with three single-sourced instances, each targeted at a different role, plus a fourth instance presenting a portfolio of writing samples.
 
-A GitHub Actions workflow builds all three instances as both WebHelp and PDF, then deploys the combined output to GitHub Pages.
+Every job's experience bullets live as individual snippets in a shared library, [resume_snippets.md](Writerside/topics/resume_snippets.md). Each resume assembles its Professional Experience section with `include` statements, selecting and ordering the bullets that best fit that role. A bullet edited once in the snippet library updates in every resume that includes it.
+
+A GitHub Actions workflow builds the three resume instances as both WebHelp and PDF, builds the Writing Samples instance as WebHelp only, then deploys the combined output to GitHub Pages.
 
 This project demonstrates the concepts of single-sourced authoring, snippet-based content reuse, and docs-as-code using GitHub and Writerside as an authoring platform.
