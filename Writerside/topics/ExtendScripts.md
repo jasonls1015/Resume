@@ -6,7 +6,7 @@
 
 At Avago Technologies (Broadcom), I documented read channel chip specifications in FrameMaker. Bit field names like `GLOBALTH1[3:0]` had to stay internally consistent across a document. When the same bit field appeared with two different bracketed ranges, for example `GLOBALTH1[3:0]` in one place and `GLOBALTH1[6:0]` in another, it signaled a real inconsistency that needed manual review and correction.
 
-Checking for this by hand across a long document was slow and error-prone. In 2012, I wrote a FrameMaker ExtendScript to automate the search. It was my first major ExtendScript project, and I documented it heavily as I went, partly to teach myself, partly so I could pick it back up months later without relearning it from scratch.
+Checking for this by hand across a long document was slow and error-prone. I wrote a FrameMaker ExtendScript to automate the search. It was my first major ExtendScript project, and I documented it heavily as I went, partly to teach myself, partly so I could pick it back up months later without relearning it from scratch.
 
 ## What it does
 
@@ -155,4 +155,4 @@ function findBracketForBitField (FoundText){
 
 ## Why this matters
 
-I'm not presenting this as a software engineering sample. It's a technical writer solving a documentation-quality problem with code, in an environment (FrameMaker's object model, ExtendScript) that has no modern tooling or community support to lean on. The parts worth noticing are the same instincts I bring to writing docs: documenting known limitations up front instead of letting a user discover them, explaining *why* a design decision was made (the 7-character cutoff) rather than just what it does, and keeping a visible record of earlier approaches and why they were replaced.
+I'm not presenting this as a software engineering sample. It's a technical writer solving a documentation-quality problem with code, in an environment (FrameMaker's object model, ExtendScript) that has limited community support and documentation. The parts worth noticing are the same instincts I bring to writing docs: documenting known limitations up front instead of letting a user discover them, explaining *why* a design decision was made (the 7-character cutoff) rather than just what it does, and keeping a visible record of earlier approaches and why they were replaced.
