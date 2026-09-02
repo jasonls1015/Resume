@@ -14,14 +14,14 @@
             <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
-    <build-profile instance="cer">
+    <build-profile instance="der">
         <variables>
             <color-preset>vivid</color-preset>
             <primary-color>iris</primary-color>
             <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
-    <build-profile instance="kmr">
+    <build-profile instance="ctr">
         <variables>
             <color-preset>contrast</color-preset>
             <primary-color>emerald</primary-color>

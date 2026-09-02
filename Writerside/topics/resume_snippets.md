@@ -11,9 +11,9 @@
 </snippet>
 
 
-<snippet id="title-ce">
+<snippet id="title-de">
 
-## Content Engineer · Docs-as-Code Architect · Documentation Automation
+## Documentation Engineer · Docs-as-Code Architect · Content Automation
 
 </snippet>
 
@@ -40,7 +40,7 @@ Technical writer and content engineer with 20+ years of experience building the 
 
 <snippet id="summary-km">
 
-Technical writer and information architect with 20+ years of experience organizing institutional knowledge for engineering and business teams. Built and governed knowledge bases and FAQ systems, including a RAG-based Slack assistant that reduced subject-matter-expert interruptions, and co-authored an AI model governance policy addressing fair-lending compliance requirements for a banking client. Skilled at turning scattered tribal knowledge into structured, searchable, maintainable systems.
+Technical writer and documentation architect with 20+ years of experience building enterprise-scale content systems, docs-as-code workflows, and structured authoring environments for engineering, security, and product teams. Designed and governed CCMS and Markdown/XML pipelines, led information architecture initiatives, and delivered high‑accuracy technical content across cloud, API, semiconductor, and identity‑verification domains. Experienced in AI-assisted authoring, RAG-based knowledge systems, and documentation governance aligned with compliance and lifecycle controls. Skilled at partnering with SMEs, product managers, engineers, and security teams to translate complex service capabilities into clear, customer‑ready documentation.
 
 </snippet>
 
@@ -49,7 +49,7 @@ Technical writer and information architect with 20+ years of experience organizi
 
 <snippet id="tech-writing">
 
-**Core technical writing**: DITA, Tridion Docs, XMetaL, FrameMaker (Structured/Unstructured), Markdown, XML, Sphinx, Readme.io, Adobe AEM, Salesforce CMS
+**Core technical writing**: DITA, Tridion Docs, XMetaL, FrameMaker (Structured/Unstructured), Markdown, XML, Readme.io, Adobe AEM, Salesforce CMS
 
 </snippet>
 
@@ -63,7 +63,7 @@ Technical writer and information architect with 20+ years of experience organizi
 
 <snippet id="ai-automation">
 
-**AI and automation**: Python, Retrieval-Augmented Generation (RAG), Claude, Slack bot development, embeddings-based search, content automation, ExtendScripts, Power Automate
+**AI and automation**: Python, Retrieval-Augmented Generation (RAG), Claude, answer-bot development, embeddings-based search, content automation, ExtendScripts, Power Automate
 
 </snippet>
 
@@ -77,7 +77,7 @@ Technical writer and information architect with 20+ years of experience organizi
 
 <snippet id="deliverables">
 
-**Deliverables**: API documentation, architecture diagrams, installation guides, training content, white papers, reference manuals, developer onboarding content
+**Deliverables**: API documentation, architecture diagrams, design specifications, developer guides, FAQs, installation guides, plan of record, product requirements definitions, process diagrams, programming guides, training content, technical overviews, technology guides, white papers, reference manuals, release notes, solution briefs, user guides
 
 </snippet>
 
@@ -93,7 +93,7 @@ Led Intellicheck's first docs-as-code initiative using GitHub, Markdown, and Rea
 
 <snippet id="ic-roots-overview">
 
-Designed and directed development of ROOTS, a Slack-integrated retrieval-augmented generation (RAG) Python application using Claude to answer developer questions about API endpoints and internal functionality.
+Engineered ROOTS, a Slack-integrated RAG chatbot for developer support, owning the chunking strategy, retrieval tuning, and system prompt design over a ChromaDB index synced with Amazon Bedrock; diagnosed and resolved retrieval failures through iterative testing against a local harness.
 
 </snippet>
 
@@ -109,21 +109,27 @@ Delivered an authoritative internal support tool that reduced SME interruptions 
 
 </snippet>
 
+<snippet id="ic-drift-detector">
+
+Automated drift detection between GitHub PR descriptions and the API specification with a Python script, flagging documentation updates before they fell out of sync with the live API.
+
+</snippet>
+
 <snippet id="ic-api-docs-word-to-markdown">
 
-Converted legacy API documentation from Word to Markdown, improving clarity, consistency, and maintainability.
+Designed and implemented the information architecture for a docs-as-code migration from Word to a structured Markdown authoring platform, producing single-sourced output for an online developer portal.
 
 </snippet>
 
 <snippet id="ic-webhelp-migration">
 
-Migrated publications to a semantic XML + Markdown authoring platform to produce single-sourced WebHelp output.
+Wrote end-user documentation in a structured XML + Markdown authoring platform to produce static sites with interactive elements and context-sensitive pages.
 
 </snippet>
 
 <snippet id="ic-confluence-spaces">
 
-Built Confluence spaces for onboarding, technical publications best practices, and internal communication.
+Designed and maintained Confluence spaces for onboarding, technical publications best practices, and internal communication.
 
 </snippet>
 
@@ -141,7 +147,7 @@ Designed a Jira work management project with Slack release notifications to stre
 
 <snippet id="ic-ai-governance-policy">
 
-Co-authored an AI Model Governance Policy with Data Science leadership, addressing fair-lending and non-discrimination requirements for a banking client and referencing NIST and I-BETA Level 2 facial-recognition testing standards.
+Contributed to Intellicheck's AI Model Governance Policy, handling document structure, version control, and formatting for sections addressing third-party vendor governance and NIST-aligned fairness testing (I-BETA Level 2) for facial recognition models, delivered in response to a banking client's compliance request.
 
 </snippet>
 
@@ -156,13 +162,19 @@ Delivered 700+ publications for electrical engineers, developers, and SMEs acros
 
 <snippet id="intel-ccms-dita-tridion-xmetal">
 
-Utilized structured content in an enterprise component content management system (CCMS) built with Darwin Information Typing Architecture (DITA), Tridion Docs, and XMetaL.
+Authored structured content in an enterprise component content management system (CCMS) built with Darwin Information Typing Architecture (DITA), Tridion Docs, and XMetaL.
 
 </snippet>
 
 <snippet id="intel-docs-as-code-workflow">
 
 Established a docs-as-code workflow with developers using Linux, Gerrit, Sphinx, Docker, and restructured text (RST) to revise instruction set reference manuals.
+
+</snippet>
+
+<snippet id="intel-5G-telecom">
+
+Documented 5G and networking silicon in Intel’s Networking Division, supporting carrier‑grade telecom infrastructure used across North America.
 
 </snippet>
 
@@ -201,7 +213,7 @@ Documented integrated circuits for the storage industry with a team of six colla
 
 <snippet id="broadcom-extendscripts-automation">
 
-Developed custom FrameMaker ExtendScripts applications to automate complex documentation build processes, resulting in improved quality and significant savings of time and resources.
+Engineered custom FrameMaker ExtendScripts applications to automate complex documentation build processes, resulting in improved quality and significant savings of time and resources.
 
 </snippet>
 
@@ -215,7 +227,7 @@ Led a seven-person information architecture group chartered with improving docum
 
 <snippet id="ics-manuals-and-guides">
 
-Worked closely with quality assurance, development, marketing, and support to write more than 40 manuals, requirements specifications, technical briefs, installation guides, quick references, instruction sheets, and brochures, significantly improving both the quality and quantity of documentation for a small business with a loyal customer base.
+Collaborated with quality assurance, development, marketing, and support to author more than 40 manuals, requirements specifications, technical briefs, installation guides, quick references, instruction sheets, and brochures, significantly improving both the quality and quantity of documentation for a small business with a loyal customer base.
 
 </snippet>
 
@@ -233,7 +245,7 @@ Administered SharePoint document libraries and a project-tracking list to manage
 
 <snippet id="ics-document-classification-kb">
 
-Developed a standard document classification system and published an internal intranet knowledge base for call center employees, improving the speed and reliability of customer issue resolution.
+Designed a standard document classification system and published an internal intranet knowledge base for call center employees, improving the speed and reliability of customer issue resolution.
 
 </snippet>
 
