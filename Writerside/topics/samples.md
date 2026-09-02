@@ -21,8 +21,6 @@ A docs-as-code approach to end-user help content, using Writerside's semantic ma
 
 [Read the case study](Markdown.md)
 
-## Samples
-
 ### Automation & Scripting: FrameMaker ExtendScript
 A custom script I wrote to catch inconsistent bit field notation across long hardware specifications, an early example of solving a documentation-quality problem with code rather than manual review.
 

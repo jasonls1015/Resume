@@ -37,6 +37,8 @@
 
 - <include from="resume_snippets.md" element-id="ic-confluence-spaces"/>
 
+- <include from="resume_snippets.md" element-id="ic-ai-governance-policy" />
+
 
 ## Staff Technical Writer, Intel
 

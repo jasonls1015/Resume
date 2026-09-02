@@ -18,4 +18,8 @@
         <description>Created after removal of "Log In" from Samples</description>
         <accepts>LogIn.html</accepts>
     </rule>
+    <rule id="60b3cef6">
+        <description>Created after removal of "Resume Snippets" from Knowledge Manager Resume</description>
+        <accepts>resume_snippets.html</accepts>
+    </rule>
 </rules>

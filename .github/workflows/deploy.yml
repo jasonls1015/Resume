@@ -24,17 +24,17 @@ jobs:
             pdf_artifact: pdfSourceTWR.pdf
             outdir: technical-writer
             has_pdf: true
-          - id: cer
-            instance: Writerside/cer
-            web_artifact: webHelpCER2-all.zip
-            pdf_artifact: pdfSourceCER.pdf
-            outdir: content-engineer
+          - id: der
+            instance: Writerside/der
+            web_artifact: webHelpDER2-all.zip
+            pdf_artifact: pdfSourceDER.pdf
+            outdir: documentation-engineer
             has_pdf: true
-          - id: kmr
-            instance: Writerside/kmr
-            web_artifact: webHelpKMR2-all.zip
-            pdf_artifact: pdfSourceKMR.pdf
-            outdir: knowledge-manager
+          - id: ctr
+            instance: Writerside/ctr
+            web_artifact: webHelpCTR2-all.zip
+            pdf_artifact: pdfSourceCTR.pdf
+            outdir: custom-tailored
             has_pdf: true
           - id: smp
             instance: Writerside/smp
