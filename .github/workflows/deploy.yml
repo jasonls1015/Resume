@@ -11,7 +11,6 @@ permissions:
 
 env:
   DOCKER_VERSION: 2026.07.8925
-  PDF: 'PDF.xml'
 
 jobs:
   build:
@@ -69,6 +68,8 @@ jobs:
         with:
           instance: ${{ matrix.instance }}
           docker-version: ${{ env.DOCKER_VERSION }}
+          pdf: 'PDF.xml'
+          artifact: ${{ matrix.pdf_artifact }}
 
       - name: Stage PDF for download
         if: matrix.has_pdf
