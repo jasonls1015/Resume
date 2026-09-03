@@ -11,6 +11,7 @@
     <option name="logoPath" />
     <option name="moduleName" value="Writerside" />
     <option name="title" />
+    <option name="tocTitle" value="Cover Page" />
     <method v="2" />
   </configuration>
 </component>

@@ -3,7 +3,8 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="twr" name="Technical Writer Resume"
-                  start-page="technical-writer-resume.md">
+                  start-page="Section-Starting-Page-twr.topic">
 
+    <toc-element topic="Section-Starting-Page-twr.topic"/>
     <toc-element topic="technical-writer-resume.md"/>
 </instance-profile>

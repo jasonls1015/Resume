@@ -4,7 +4,8 @@
 
 <instance-profile id="der"
                  name="Documentation Engineer Resume"
-                 start-page="documentation-engineer-resume.md">
+                 start-page="Section-Starting-Page-der.topic">
 
+    <toc-element topic="Section-Starting-Page-der.topic"/>
     <toc-element topic="documentation-engineer-resume.md"/>
 </instance-profile>
