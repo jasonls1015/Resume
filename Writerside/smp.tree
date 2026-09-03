@@ -4,8 +4,9 @@
 
 <instance-profile id="smp"
                  name="Samples"
-                 start-page="samples.md">
+                 start-page="Section-Starting-Page-smp.topic">
 
+    <toc-element topic="Section-Starting-Page-smp.topic"/>
     <toc-element topic="samples.md">
         <toc-element topic="API-Documentation.md"/>
         <toc-element topic="ROOTS-Case-Study.md"/>

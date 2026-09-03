@@ -2,6 +2,8 @@
 
 218 North 30th Street · Allentown, PA 18104 · (484) 241-0122 · jasonls1015@outlook.com
 
+[Download](https://jasonls1015.github.io/Resume/downloads/der-resume.pdf)
+
 <include from="resume_snippets.md" element-id="title-de" />
 
 <include from="resume_snippets.md" element-id="summary-ce" />

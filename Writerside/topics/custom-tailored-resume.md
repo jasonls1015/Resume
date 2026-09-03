@@ -2,6 +2,8 @@
 
 218 North 30th Street · Allentown, PA 18104 · (484) 241-0122 · jasonls1015@outlook.com
 
+[Download this resume as a PDF file.](https://jasonls1015.github.io/Resume/downloads/twr-resume.pdf)
+
 ## Senior Lead Technical Writer · Documentation Architect · Structured Content & Governance
 
 Technical writer and documentation architect with 20+ years of experience building enterprise-scale content systems, docs-as-code workflows, and structured authoring environments for engineering, security, and product teams. Experienced documenting semiconductor, cloud, identity‑verification, and telecom networking technologies, including 5G silicon used across North American carrier infrastructure. Designed and governed CCMS and Markdown/XML pipelines, led information architecture initiatives to deliver high‑accuracy technical content. Experienced in AI-assisted authoring, RAG-based knowledge systems, and documentation governance aligned with compliance and lifecycle controls. Skilled at partnering with SMEs, product managers, engineers, and security teams to translate complex service capabilities into clear, consistent, customer‑ready documentation.
